@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Number</title>
+    <link href="https://fonts.googleapis.com/css?family='Raleway%7cRoboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#e83556">
+    <meta name="apple-mobile-web-app-title" content="Swetmore">
+    <meta name="application-name" content="Swetmore">
+    <meta name="msapplication-TileColor" content="#e83556">
+    <meta name="theme-color" content="#e83556">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li id="active" class="navitem">
+                <a href="examples.html">Examples</a>
+            </li>
+            <li class="navitem">
+                <a href="contact.html">Contact</a>
+            </li>
+            <li class="navitem">
+                <a href="education.html">Education</a>
+            </li>
+            <li class="navitem">
+                <a href="index.html">Home</a>
+            </li>
+            <li id="logolist">
+                <a href="index.html" class="logo">
+                    <img alt="Jacob's Logo" src="logo_pink.png" width="70" height="70">
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <form class="numberform">
+        <fieldset>
+            <legend>Please enter a number between 1 and 100</legend>
+            <label>Number:</label>
+            <input for="guess" title="guess" type="text" id="guess" autofocus/>
+            <input type="button" id="guessButton" value="Guess!" />
+            <input type="button" id="resetButton" value="Reset!" />
+        </fieldset>
+        <textarea readonly for="output" title="output" id="output" name="output" rows="3" style="width: 100%; height: 200px;">
+        </textarea>
+    </form>
+    <noscript>Your browser does not support JavaScript, or it is turned off!</noscript>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="mailto:jacobswetmore99@gmail.com?Subject=I'd%20like%20to%20hire%20you!">
+                    <em style="font-size:36px;" class="material-icons white">email</em>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/jacobswetmore">
+                    <em style="font-size:36px;" class="material-icons white">people</em>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="number.js"></script>
+</body>
+
+</html>
